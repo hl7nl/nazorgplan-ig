@@ -1,0 +1,387 @@
+{
+	"resourceType": "CarePlan",
+	"id": "careplan-nl1g001306",
+	"status": "active",
+	"intent": "plan",
+	"subject": {
+		"reference": "Patient/NL1G001306"
+	},
+	"created": "2025-02-20",
+	"author": {
+		"reference": "Practitioner/UMCG-Oncology"
+	},
+	"title": "Oncology Treatment Plan",
+	"description": "Care plan for oncology treatment and follow-up for patient NL1G001306.",
+	"contained": [
+		{
+			"resourceType": "QuestionnaireResponse",
+			"status": "completed",
+			"subject": {
+				"reference": "Patient/NL1G001306"
+			},
+			"authored": "2025-02-20",
+			"item": [
+				{
+					"linkId": "institution",
+					"text": "Institution",
+					"answer": [
+						{
+							"valueString": "UMCG Groningen"
+						}
+					]
+				},
+				{
+					"linkId": "gender",
+					"text": "Gender",
+					"answer": [
+						{
+							"valueString": "Male"
+						}
+					]
+				},
+				{
+					"linkId": "tumorType",
+					"text": "Tumor Type",
+					"answer": [
+						{
+							"valueInteger": 1
+						}
+					]
+				},
+				{
+					"linkId": "diagnosis",
+					"text": "Diagnosis",
+					"answer": [
+						{
+							"valueString": "Extragonadal"
+						}
+					]
+				},
+				{
+					"linkId": "teratoma",
+					"text": "Teratoma",
+					"answer": [
+						{
+							"valueBoolean": true
+						}
+					]
+				},
+				{
+					"linkId": "AFP",
+					"text": "AFP",
+					"answer": [
+						{
+							"valueInteger": 101
+						}
+					]
+				},
+				{
+					"linkId": "HCG",
+					"text": "HCG",
+					"answer": [
+						{
+							"valueInteger": 55
+						}
+					]
+				},
+				{
+					"linkId": "LDH",
+					"text": "LDH",
+					"answer": [
+						{
+							"valueInteger": 300
+						}
+					]
+				},
+				{
+					"linkId": "treatment",
+					"text": "Treatment",
+					"item": [
+						{
+							"linkId": "orchidectomyDate",
+							"text": "Orchidectomy date",
+							"answer": [
+								{
+									"valueDate": "2025-02-04"
+								}
+							]
+						},
+						{
+							"linkId": "orchidectomyType",
+							"text": "Orchidectomy Type",
+							"answer": [
+								{
+									"valueString": "Bilateral"
+								}
+							]
+						},
+						{
+							"linkId": "chemotherapyStartDate",
+							"text": "Chemotherapy Start Date",
+							"answer": [
+								{
+									"valueDate": "2025-02-05"
+								}
+							]
+						},
+						{
+							"linkId": "chemotherapyType",
+							"text": "Chemotherapy Type",
+							"answer": [
+								{
+									"valueString": "TIP"
+								}
+							]
+						},
+						{
+							"linkId": "radiotherapy",
+							"text": "Radiotherapy",
+							"answer": [
+								{
+									"valueBoolean": true
+								}
+							]
+						},
+						{
+							"linkId": "radiotherapyStartDate",
+							"text": "Radiotherapy Start Date",
+							"answer": [
+								{
+									"valueDate": "2025-02-11"
+								}
+							]
+						},
+						{
+							"linkId": "radiotherapyDoses",
+							"text": "Total Doses Radiation",
+							"answer": [
+								{
+									"valueDecimal": 2.0
+								}
+							]
+						}
+					]
+				},
+				{
+					"linkId": "rplnd",
+					"text": "RPLND (abdominal surgery)",
+					"answer": [
+						{
+							"valueBoolean": true
+						}
+					]
+				},
+				{
+					"linkId": "paRPLND",
+					"text": "PA RPLND Teratoma",
+					"answer": [
+						{
+							"valueBoolean": true
+						}
+					]
+				},
+				{
+					"linkId": "dateRPLND",
+					"text": "Date RPLND",
+					"answer": [
+						{
+							"valueDate": "2025-02-19"
+						}
+					]
+				},
+				{
+					"linkId": "cardiovascularEvent",
+					"text": "Cardiovascular Event",
+					"answer": [
+						{
+							"valueString": "CHD"
+						}
+					]
+				},
+				{
+					"linkId": "tromboEmbolicEvent",
+					"text": "Trombo-embolic Event",
+					"answer": [
+						{
+							"valueBoolean": true
+						}
+					]
+				},
+				{
+					"linkId": "bleomycin",
+					"text": "Bleomycin",
+					"answer": [
+						{
+							"valueBoolean": true
+						}
+					]
+				},
+				{
+					"linkId": "followUpSchedule",
+					"text": "Follow-up Schedule",
+					"answer": [
+						{
+							"valueString": "S – Radiotherapy"
+						}
+					]
+				},
+				{
+					"linkId": "metabolicSyndrome",
+					"text": "Metabolic Syndrome",
+					"answer": [
+						{
+							"valueBoolean": true
+						}
+					]
+				},
+				{
+					"linkId": "dateMetabolicSyndrome",
+					"text": "Date Metabolic Syndrome",
+					"answer": [
+						{
+							"valueDate": "2025-02-20"
+						}
+					]
+				},
+				{
+					"linkId": "paresthesia",
+					"text": "Paresthesia",
+					"answer": [
+						{
+							"valueBoolean": true
+						}
+					]
+				},
+				{
+					"linkId": "medication",
+					"text": "Medication",
+					"answer": [
+						{
+							"valueString": "Anti diabetic"
+						},
+						{
+							"valueString": "Testosterone"
+						},
+						{
+							"valueString": "Statin"
+						},
+						{
+							"valueString": "Antihypertensive"
+						}
+					]
+				},
+				{
+					"linkId": "totalDosesChemotherapy",
+					"text": "Total Doses Chemotherapy",
+					"item": [
+						{
+							"linkId": "cisplatin",
+							"text": "Cisplatin",
+							"answer": [
+								{
+									"valueInteger": 110
+								}
+							]
+						},
+						{
+							"linkId": "etoposide",
+							"text": "Etoposide",
+							"answer": [
+								{
+									"valueInteger": 100
+								}
+							]
+						},
+						{
+							"linkId": "ifosfamide",
+							"text": "Ifosfamide",
+							"answer": [
+								{
+									"valueInteger": 2000
+								}
+							]
+						},
+						{
+							"linkId": "paclitaxel",
+							"text": "Paclitaxel",
+							"answer": [
+								{
+									"valueInteger": 30
+								}
+							]
+						}
+					]
+				},
+				{
+					"linkId": "relapse",
+					"text": "Relapse",
+					"item": [
+						{
+							"linkId": "dateRelapse",
+							"text": "Date Relapse",
+							"answer": [
+								{
+									"valueDate": "0003-04-09"
+								}
+							]
+						},
+						{
+							"linkId": "relapseTreatments",
+							"text": "Relapse Treatments",
+							"answer": [
+								{
+									"valueString": "Chemotherapy"
+								}
+							]
+						},
+						{
+							"linkId": "chemotherapyRelapse",
+							"text": "Chemotherapy Relapse Type",
+							"answer": [
+								{
+									"valueString": "VIP"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"resourceType": "Appointment",
+			"id": "appointment-001",
+			"status": "proposed",
+			"serviceType": [
+				{
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "185347001",
+							"display": "radiotherapy"
+						}
+					]
+				}
+			],
+			"start": "2026-05-01T00:00:00Z",
+			"extension": [
+				{
+					"url": "http://example.org/fhir/StructureDefinition/approximateDate",
+					"valueString": "2026-05"
+				}
+			],
+			"participant": [
+				{
+					"actor": {
+						"reference": "Patient/NL1G001306"
+					}
+				},
+				{
+					"actor": {
+						"reference": "Practitioner/456",
+						"display": "Dr. Jane Smith"
+					}
+				}
+			]
+		}
+	]
+}
